@@ -64,6 +64,7 @@ body {
 .bgcontent hr {
   display: none;
 }
+
 .header-menu-toggle {
     position: absolute;
     right: 38px;
@@ -75,7 +76,6 @@ body {
     font-size: 1rem;
     letter-spacing: .3rem;
     color: white;
-    z-index: 1;
 
 }
 
@@ -101,6 +101,7 @@ body {
 .fancy span {
   display: inline-block;
   position: relative;
+
 
 }
 
@@ -273,9 +274,9 @@ body {
   .bgcontent h1 {
     font-family: "Times New Roman", Times, serif;
      color: white;
-     font-size: 30px;
+     font-size: 35px;
      margin-left: 60px;
-     margin-bottom: 10px;
+     margin-bottom: 20px;
      margin-right: 0;
      padding-right: 0;
   }
@@ -283,7 +284,8 @@ body {
   .bgcontent p {
     text-align: left;
      margin-left: 60px;
-     top:0;
+     margin-top: 50px;
+     top:10px;
 
 
   }
@@ -291,7 +293,7 @@ body {
   .header-menu-toggle {
       position: absolute;
       right: 10px;
-      top: 16px;
+      top: 18px;
       height: 40px;
       width: 40px;
       line-height: 40px;
@@ -318,7 +320,7 @@ body {
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
-    width: 10%;
+    width: 13%;
     margin-left:60px;
     margin-right: auto;
     color: #C71585;
@@ -336,7 +338,7 @@ body {
 
   .fsize {
     font-size: 20px;
-
+    padding-top: 10px;
   }
 
 
