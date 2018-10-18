@@ -266,7 +266,7 @@ body {
     position: absolute;
     text-align: left;
     width: 100%;
-    border: 1px solid white;
+
 
   }
 
@@ -748,7 +748,7 @@ body {
   background-image: url("images/background2.jpg");
   height: auto;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size:cover;
 }
 
@@ -804,11 +804,15 @@ body {
     padding: 10px 10px;
   }
   .stats__col {
+    display: block;
     margin:0;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
+  .stats__col hr {
+    width: 10%;
+  }
 }
 
 .fifthhalf {
@@ -836,14 +840,11 @@ body {
   padding: 0px 200px;
 }
 
-
-
-
 .fifthhalf p {
   opacity: 0.5;
 }
 
-hr {
+.fifthhalf hr {
     display: block;
     overflow: hidden;
     border-style: inset;
