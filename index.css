@@ -276,7 +276,7 @@ body {
      color: white;
      font-size: 45px;
      margin-left: 60px;
-     margin-bottom: 20px;
+     margin-bottom: 30px;
      margin-right: 0;
      padding-right: 0;
   }
@@ -325,6 +325,7 @@ body {
     margin-right: auto;
     color: #C71585;
   }
+
   .fancy {
     line-height: 1;
     text-align: center;
@@ -338,16 +339,13 @@ body {
 
   .fsize {
     font-size: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
 
   .fancy span:before {
     display: none;
   }
-
-
-
 
   #gap {
     padding-left: 20px;
